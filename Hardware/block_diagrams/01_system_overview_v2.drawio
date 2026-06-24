@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="cBwh0aEz-au7Wqg0l_V9">
+    <mxGraphModel dx="-723" dy="-591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="330" width="640" x="2432.3827763310182" y="1320.004074074074" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-19" edge="1" parent="1" source="DJY8nscJJhBjwi_Wdv2j-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="DJY8nscJJhBjwi_Wdv2j-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-20" connectable="0" parent="DJY8nscJJhBjwi_Wdv2j-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span&gt;USB CDC&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2934" y="2" as="geometry">
+            <mxPoint x="3" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="STM32F401CEU6 development board (RX)" vertex="1">
+          <mxGeometry height="60" width="120" x="2913.7104233898417" y="1565.0764270152504" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-22" edge="1" parent="1" source="DJY8nscJJhBjwi_Wdv2j-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DJY8nscJJhBjwi_Wdv2j-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Custom interface board&lt;div&gt;(DAC)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="142.65" x="2681.0574822133713" y="1345.0752505446621" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-25" edge="1" parent="1" source="DJY8nscJJhBjwi_Wdv2j-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DJY8nscJJhBjwi_Wdv2j-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="STM32F401CEU6 development board (TX)" vertex="1">
+          <mxGeometry height="60" width="120" x="2453.7104233898417" y="1345.0764270152504" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PC Processing Unit" vertex="1">
+          <mxGeometry height="60" width="120" x="2692.380423389842" y="1455.0764270152504" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-31" edge="1" parent="1" source="DJY8nscJJhBjwi_Wdv2j-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DJY8nscJJhBjwi_Wdv2j-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Custom interface board&lt;div&gt;(ADC)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="142.65" x="2902.387482213371" y="1345.0752505446621" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-40" edge="1" parent="1" source="DJY8nscJJhBjwi_Wdv2j-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DJY8nscJJhBjwi_Wdv2j-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJY8nscJJhBjwi_Wdv2j-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;TX User Interface&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;(LCD + Navigation Buttons)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2453.71" y="1565.08" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
